@@ -163,6 +163,8 @@
                 <li class="breadcrumb-item active" aria-current="page"><a>Settings</a></li>
             </ol>
         </nav>
+
+        <?php include_once 'paginas/config.php';?>
     </div>
 
     <?php include_once 'footer.php';?>

@@ -17,6 +17,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1l1r9Mja7Tp76t8D6QKJkuGjwAs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,7 +29,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../whatsapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -54,6 +57,7 @@
       <workItem from="1607205870065" duration="16000" />
       <workItem from="1607342871728" duration="1295000" />
       <workItem from="1607431610264" duration="4786000" />
+      <workItem from="1607440090116" duration="2375000" />
     </task>
     <servers />
   </component>
@@ -65,10 +69,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1607205883813" />
-    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1607437767215">
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1607440667601">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607437767215" />
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607440667601" />
     <state x="461" y="170" key="SettingsEditor" timestamp="1606775585801">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

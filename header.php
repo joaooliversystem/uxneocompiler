@@ -481,6 +481,23 @@
         .opts-compilers input{
             width: 30px;
         }
+        .config-class .col-md-2{
+            float: left;
+            padding: 0;
+        }
+        .config-class .col-md-3{
+            float: left;
+            padding: 0 5px 0 0;
+        }
+        .config-class .col-md-5{
+            float: left;
+            padding: 0 5px 0 0;
+        }
+        .config-class .row input{
+
+            float: left;
+            width: 100%;
+        }
     </style>
 
 
