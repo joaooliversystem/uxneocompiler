@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bddaa13e-5897-4ea1-9c03-9bdcdf36144f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1l1r9Mja7Tp76t8D6QKJkuGjwAs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../whatsapp" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\projetos\neocompiler\assets" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bddaa13e-5897-4ea1-9c03-9bdcdf36144f" name="Default Changelist" comment="" />
+      <created>1606775285390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606775285390</updated>
+      <workItem from="1606775286514" duration="4453000" />
+      <workItem from="1606852442563" duration="7274000" />
+      <workItem from="1606921370364" duration="9424000" />
+      <workItem from="1607000448991" duration="7960000" />
+      <workItem from="1607091669649" duration="4630000" />
+      <workItem from="1607105286681" duration="5894000" />
+      <workItem from="1607170346689" duration="1381000" />
+      <workItem from="1607185413848" duration="1462000" />
+      <workItem from="1607205870065" duration="16000" />
+      <workItem from="1607342871728" duration="1295000" />
+      <workItem from="1607431610264" duration="4786000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1607205883813">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1607205883813" />
+    <state x="794" y="448" key="NewPhpFileDialog" timestamp="1607437767215">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="794" y="448" key="NewPhpFileDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1607437767215" />
+    <state x="461" y="170" key="SettingsEditor" timestamp="1606775585801">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="170" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606775585801" />
+  </component>
+</project>
