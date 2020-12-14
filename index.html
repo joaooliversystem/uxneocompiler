@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>NEO COMPILER</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/ux_css/bootstrap.min-4.5.3.css">
-    <link rel="stylesheet" href="assets/ux_css/all.min-1.0.3.css">    
-    <link rel="stylesheet" href="assets/ux_css/green.min-1.0.3.css">    
+    <link rel="stylesheet" href="assets/ux_css/all.min-1.0.3.css">
+    <link rel="stylesheet" href="assets/ux_css/green.min-1.0.3.css">
     <link rel="stylesheet" href="assets/ux_css/select2.min-4.1.0.css">
     <link rel="stylesheet" href="assets/ux_css/style.css">
     <link rel="icon" href="assets/neocompiler.png">
-    <!-- TODO CHANGE THIS TO LOCAL AS WELL -->    
+    <!-- TODO CHANGE THIS TO LOCAL AS WELL -->
     <script src="https://kit.fontawesome.com/99cb2d722b.js" crossorigin="anonymous"></script>
 </head>
-
 <div ng-include='"header.html"'></div>
 
 <div class="clearfix"></div>
@@ -20,163 +20,164 @@
 <br>
 <br>
 
-    <!-- PAGINA COMPILERS INICIO -->
+<!-- PAGINA COMPILERS INICIO -->
 
-    <div class="tab-pane fade show active" id="nav-compilers" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home"></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>  <span class="spinner-grow spinner-grow-sm preloader" role="status" aria-hidden="true"></span>
-                        Compilers</a></li>
-            </ol>
-        </nav>
+<div class="tab-pane fade show active" id="nav-compilers" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home"></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a> <span
+                        class="spinner-grow spinner-grow-sm preloader" role="status" aria-hidden="true"></span>
+                    Compilers</a></li>
+        </ol>
+    </nav>
 
-        <div ng-include='"paginas/compilers.html"'></div>
-    </div>
-
-
-    <!-- PAGINA DEPLOY INICIO -->
+    <div ng-include='"paginas/compilers.html"'></div>
+</div>
 
 
-    <div class="tab-pane fade" id="nav-deploy" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>Deploy</a></li>
-            </ol>
-        </nav>
-
-        <div ng-include='"paginas/deploy.html"'></div>
-    </div>
+<!-- PAGINA DEPLOY INICIO -->
 
 
+<div class="tab-pane fade" id="nav-deploy" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a>Deploy</a></li>
+        </ol>
+    </nav>
 
-    <!-- PAGINA SEND&BUILD INICIO -->
-
-
-    <div class="tab-pane fade" id="nav-sbuild" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a> Send & Build</a></li>
-            </ol>
-        </nav>
-
-        <div ng-include='"paginas/sbuild.html"'></div>
-    </div>
+    <div ng-include='"paginas/deploy.html"'></div>
+</div>
 
 
-    <!-- PAGINA RPC INICIO -->
+
+<!-- PAGINA SEND&BUILD INICIO -->
 
 
-    <div class="tab-pane fade" id="nav-rpc" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>RPC</a></li>
-            </ol>
-        </nav>
+<div class="tab-pane fade" id="nav-sbuild" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a> Send & Build</a></li>
+        </ol>
+    </nav>
 
-        <div ng-include='"paginas/raw.html"'></div>
-    </div>
-
-
-    <!-- PAGINA ACTIVITY INICIO -->
+    <div ng-include='"paginas/sbuild.html"'></div>
+</div>
 
 
-    <div class="tab-pane fade" id="nav-activity" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>Activity</a></li>
-            </ol>
-        </nav>
-    </div>
+<!-- PAGINA RPC INICIO -->
 
 
-    <!-- PAGINA STORAGE INICIO -->
+<div class="tab-pane fade" id="nav-rpc" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a>RPC</a></li>
+        </ol>
+    </nav>
+
+    <div ng-include='"paginas/raw.html"'></div>
+</div>
 
 
-    <div class="tab-pane fade" id="nav-storage" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>Storage Query</a></li>
-            </ol>
-        </nav>
-
-        <div ng-include='"paginas/storage.html"'></div>
-
-    </div>
+<!-- PAGINA ACTIVITY INICIO -->
 
 
-    <!-- PAGINA WALLET INICIO -->
+<div class="tab-pane fade" id="nav-activity" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a>Activity</a></li>
+        </ol>
+    </nav>
+</div>
 
 
-    <div class="tab-pane fade" id="nav-wallet" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>Wallet</a></li>
-            </ol>
-        </nav>
-    </div>
+<!-- PAGINA STORAGE INICIO -->
 
 
-    <!-- PAGINA CONVERSORS INICIO -->
+<div class="tab-pane fade" id="nav-storage" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a>Storage Query</a></li>
+        </ol>
+    </nav>
+
+    <div ng-include='"paginas/storage.html"'></div>
+
+</div>
 
 
-    <div class="tab-pane fade" id="nav-conversors" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>Conversors</a></li>
-            </ol>
-        </nav>
-
-        <div ng-include='"paginas/conversus.html"'></div>
-    </div>
-
-    <!-- PAGINA CONSENSUS INICIO -->
+<!-- PAGINA WALLET INICIO -->
 
 
-    <div class="tab-pane fade" id="nav-consensus" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>Consensus</a></li>
-            </ol>
-        </nav>
-
-        <div ng-include='"paginas/consensus.html"'></div>
-    </div>
+<div class="tab-pane fade" id="nav-wallet" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a>Wallet</a></li>
+        </ol>
+    </nav>
+</div>
 
 
-    <!-- PAGINA STATISTICS INICIO -->
+<!-- PAGINA CONVERSORS INICIO -->
 
 
-    <div class="tab-pane fade" id="nav-statistics" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>Statistics</a></li>
-            </ol>
-        </nav>
-    </div>
+<div class="tab-pane fade" id="nav-conversors" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a>Conversors</a></li>
+        </ol>
+    </nav>
+
+    <div ng-include='"paginas/conversus.html"'></div>
+</div>
+
+<!-- PAGINA CONSENSUS INICIO -->
 
 
-    <!-- PAGINA STATISTICS INICIO -->
+<div class="tab-pane fade" id="nav-consensus" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a>Consensus</a></li>
+        </ol>
+    </nav>
 
-    
-    <div class="tab-pane fade" id="nav-settings" role="tabpanel" aria-labelledby="nav-home-tab">
-        <nav class="nav-links" aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>Settings</a></li>
-            </ol>
-        </nav>
+    <div ng-include='"paginas/consensus.html"'></div>
+</div>
 
-        <div ng-include='"paginas/config.html"'></div>
-    </div>
 
-    <div ng-include='"paginas/footer.html"'></div>
+<!-- PAGINA STATISTICS INICIO -->
+
+
+<div class="tab-pane fade" id="nav-statistics" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a>Statistics</a></li>
+        </ol>
+    </nav>
+</div>
+
+
+<!-- PAGINA STATISTICS INICIO -->
+
+
+<div class="tab-pane fade" id="nav-settings" role="tabpanel" aria-labelledby="nav-home-tab">
+    <nav class="nav-links" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
+            <li class="breadcrumb-item active" aria-current="page"><a>Settings</a></li>
+        </ol>
+    </nav>
+
+    <div ng-include='"paginas/config.html"'></div>
+</div>
+
+<div ng-include='"paginas/footer.html"'></div>
