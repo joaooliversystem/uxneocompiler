@@ -37,13 +37,16 @@
 
 
             <div class="display-erros" style="margin-bottom: 10px;">
-                <textarea id="codeavm" name="codeavm" readonly="readonly" rows="5" cols="100" placeholder="AVM (in hex)" class="form-control" style="background: none;border: none;resize: none;outline: none;"></textarea>
+                <textarea id="codeavm" name="codeavm" readonly="readonly" rows="5" cols="100" placeholder="AVM (in hex)"
+                    class="form-control" style="background: none;border: none;resize: none;outline: none;"></textarea>
             </div>
             <div class="dropdown show">
-                <a class="btn btn-warning text-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="btn btn-warning text-white dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     AVM
                 </a>
-                <button data-toggle="collapse" data-target="#opcodesDiv" type="button" class="btn btn-info collapsed">AVM OPCODES</button>
+                <button data-toggle="collapse" data-target="#opcodesDiv" type="button"
+                    class="btn btn-info collapsed">AVM OPCODES</button>
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <a class="dropdown-item" href="#">Action</a>
@@ -51,7 +54,7 @@
                     <a class="dropdown-item" href="#">Something else here</a>
                 </div>
 
-                &nbsp;&nbsp;&nbsp; <i class="fas fa-upload"></i>  AVM:
+                &nbsp;&nbsp;&nbsp; <i class="fas fa-upload"></i> AVM:
                 <input type="file" class="dropzone" id="importAVMFile" accept=".avm,.AVM" onchange="ImportAVM()">
                 <br>
                 <br>
@@ -59,7 +62,9 @@
 
 
                     <div class="display-erros" style="margin-bottom: 10px;height: 150px">
-                        <textarea id="txt_opcodes" readonly="readonly" rows="5" cols="100" placeholder="Listing AVM OpCodes" class="form-control" style="background: none;border: none;resize: none;outline: none;"></textarea>
+                        <textarea id="txt_opcodes" readonly="readonly" rows="5" cols="100"
+                            placeholder="Listing AVM OpCodes" class="form-control"
+                            style="background: none;border: none;resize: none;outline: none;"></textarea>
                     </div>
                 </div>
             </div>
@@ -72,24 +77,28 @@
         <div class="errors-warnings" style="height: 520px;">
             <h4>Compiled contract info:
             </h4>
-            <a href="#"  class="btn btn-info collapsed"> Add to wallet</a>
+            <a href="#" class="btn btn-info collapsed"> Add to wallet</a>
             <div class="clearfix"></div>
             <div class="display-erros" style="background: transparent">
 
 
-            <label for="contractInfo_ScriptHash">ScriptHash</label>
-            <input id="contractInfo_ScriptHash" readonly="readonly" name="contractInfo_ScriptHash" class="form-control" placeholder="Script Hash" style="width: 100%; margin-bottom: 10px;">
+                <label for="contractInfo_ScriptHash">ScriptHash</label>
+                <input id="contractInfo_ScriptHash" readonly="readonly" name="contractInfo_ScriptHash"
+                    class="form-control" placeholder="Script Hash" style="width: 100%; margin-bottom: 10px;">
 
-           <label for="contractInfo_ScriptHash">Address</label>
-           <input id="contractInfo_Address" readonly="readonly" name="contractInfo_Address" class="form-control" placeholder="Address (base58)" style="width: 100%; margin-bottom: 10px;">
-
-
-           <label for="contractInfo_ScriptHash">AVM size (in bytes)</label>
-           <input id="contractInfo_AVMSize" readonly="readonly" name="contractInfo_AVMSize" class="form-control" placeholder="AVM size (in bytes)" style="width: 100%; margin-bottom: 10px;">
+                <label for="contractInfo_ScriptHash">Address</label>
+                <input id="contractInfo_Address" readonly="readonly" name="contractInfo_Address" class="form-control"
+                    placeholder="Address (base58)" style="width: 100%; margin-bottom: 10px;">
 
 
-           <label for="contractInfo_ScriptHash">ABI:</label>
-                <textarea id="codeabi" readonly="readonly" rows="5" cols="100" placeholder="ABI (JSON format)" class="form-control"></textarea>
+                <label for="contractInfo_ScriptHash">AVM size (in bytes)</label>
+                <input id="contractInfo_AVMSize" readonly="readonly" name="contractInfo_AVMSize" class="form-control"
+                    placeholder="AVM size (in bytes)" style="width: 100%; margin-bottom: 10px;">
+
+
+                <label for="contractInfo_ScriptHash">ABI:</label>
+                <textarea id="codeabi" readonly="readonly" rows="5" cols="100" placeholder="ABI (JSON format)"
+                    class="form-control"></textarea>
             </div>
 
 
@@ -97,7 +106,7 @@
     </div>
 </div>
 
-<div id="editor">  using Neo.SmartContract.Framework.Services.Neo;
+<div id="editor"> using Neo.SmartContract.Framework.Services.Neo;
 
     namespace Neo.SmartContract
     {
@@ -137,7 +146,7 @@
 
 </div>
 
-<a class="btn btn-default collapseMore" data-toggle="collapse" href="#collapseMore" role="button" aria-expanded="false" aria-controls="collapseMore">
-   <img src="assets/SETALEFT.png" style="width: 40px;">
+<a class="btn btn-default collapseMore" data-toggle="collapse" href="#collapseMore" role="button" aria-expanded="false"
+    aria-controls="collapseMore">
+    <img src="assets/SETALEFT.png" style="width: 40px;">
 </a>
-
