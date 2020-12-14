@@ -153,7 +153,7 @@
         </div>
     </div>
 
-    <div class="display-erros n-padding deploy-bg" style="height: 440px;margin-bottom: 15px;border-bottom: 5px solid #00af92;">
+    <div class="display-erros n-padding deploy-bg" style="height: 460px;margin-bottom: 15px;border-bottom: 5px solid #00af92;">
         <h4 class="gree-title">Interacting with a Smart Contract - Invoke</h4>
         <div class="container">
             <div class="row">
