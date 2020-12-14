@@ -140,6 +140,8 @@
                 <li class="breadcrumb-item active" aria-current="page"><a>Consensus</a></li>
             </ol>
         </nav>
+        <?php include_once 'paginas/consensus.php';?>
+
     </div>
 
 
