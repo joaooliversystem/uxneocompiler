@@ -4,18 +4,13 @@
     <meta charset="UTF-8">
     <title>NEO COMPILER</title>
 
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.3/skins/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/iCheck/1.0.3/skins/flat/green.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="public/css/bootstrap.min-4.5.3.css">
+    <link rel="stylesheet" href="public/css/all.min-1.0.3.css">    
+    <link rel="stylesheet" href="public/css/green.min-1.0.3.css">    
+    <link rel="stylesheet" href="public/css/select2.min-4.1.0.css">
     <script src="https://kit.fontawesome.com/99cb2d722b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
-
     <link rel="icon" href="assets/neocompiler.png">
-
 </head>
 <!--Big blue-->
 <div id="mdb-preloader" class="flex-center preloader">
