@@ -482,3 +482,69 @@ textarea:focus{
     float: left;
     width: 100%;
 }
+
+textarea{
+    width: 100%;
+    background: none;
+    border:none;
+    border-bottom: 5px solid #00AF92;
+    resize: none;
+    outline: none;
+    color: white;
+}
+.small-screen{
+    display: none;
+}
+
+
+@media (max-width: 1100px) {
+
+    .menu-vertical{
+       display: none;
+    }
+    .opt-options-header{
+        display: none;s
+    }
+}
+
+    @media (max-width: 1700px) {
+
+    .menu-vertical{
+        overflow-x: scroll;
+    }
+
+
+    .menu-vertical i{
+        font-size: 3em!important;
+    }
+
+    .small-screen{
+        display: block;
+    }
+
+
+}
+
+.menu-vertical::-webkit-scrollbar-track {
+    background-color: rgba(0,175,146,1);
+}
+.menu-vertical::-webkit-scrollbar {
+    width: 2px;
+    background-color: rgba(0,175,146,1);
+}
+.menu-vertical::-webkit-scrollbar-thumb {
+    background-color: rgba(0,175,146,1);
+}
+
+
+.nav{
+    z-index: 1000000!important;
+}
+
+.opt-options-header{
+    z-index: 2000000!important;
+}
+
+.select2-dropdown{
+    z-index: 2000000!important;
+}
