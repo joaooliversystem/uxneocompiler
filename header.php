@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <title>NEO COMPILER</title>
 
-    <link rel="stylesheet" href="public/css/bootstrap.min-4.5.3.css">
-    <link rel="stylesheet" href="public/css/all.min-1.0.3.css">    
-    <link rel="stylesheet" href="public/css/green.min-1.0.3.css">    
-    <link rel="stylesheet" href="public/css/select2.min-4.1.0.css">
-    <script src="https://kit.fontawesome.com/99cb2d722b.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="public/ux_css/bootstrap.min-4.5.3.css">
+    <link rel="stylesheet" href="public/ux_css/all.min-1.0.3.css">    
+    <link rel="stylesheet" href="public/ux_css/green.min-1.0.3.css">    
+    <link rel="stylesheet" href="public/ux_css/select2.min-4.1.0.css">
+    <link rel="stylesheet" href="assets/ux_css/style.css">
     <link rel="icon" href="assets/neocompiler.png">
+    <!-- TODO CHANGE THIS TO LOCAL AS WELL -->    
+    <script src="https://kit.fontawesome.com/99cb2d722b.js" crossorigin="anonymous"></script>
 </head>
 <!--Big blue-->
 <div id="mdb-preloader" class="flex-center preloader">
