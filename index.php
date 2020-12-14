@@ -4,6 +4,7 @@
 <br>
 <br>
 <br>
+
     <!-- PAGINA COMPILERS INICIO -->
 
     <div class="tab-pane fade show active" id="nav-compilers" role="tabpanel" aria-labelledby="nav-home-tab">
@@ -40,11 +41,11 @@
     <!-- PAGINA SEND&BUILD INICIO -->
 
 
-    <div class="tab-pane fade" id="nav-deploy" role="tabpanel" aria-labelledby="nav-home-tab">
+    <div class="tab-pane fade" id="nav-sbuild" role="tabpanel" aria-labelledby="nav-home-tab">
         <nav class="nav-links" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>Deploy</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a> Send & Build</a></li>
             </ol>
         </nav>
 
@@ -88,11 +89,11 @@
     <!-- PAGINA STORAGE INICIO -->
 
 
-    <div class="tab-pane fade" id="nav-sbuild" role="tabpanel" aria-labelledby="nav-home-tab">
+    <div class="tab-pane fade" id="nav-storage" role="tabpanel" aria-labelledby="nav-home-tab">
         <nav class="nav-links" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item active" aria-current="page"><a><i class="fas fa-home "></i></a></li>
-                <li class="breadcrumb-item active" aria-current="page"><a>Send & Build</a></li>
+                <li class="breadcrumb-item active" aria-current="page"><a>Storage Query</a></li>
             </ol>
         </nav>
 
@@ -125,6 +126,8 @@
                 <li class="breadcrumb-item active" aria-current="page"><a>Conversors</a></li>
             </ol>
         </nav>
+        <?php include_once 'paginas/conversus.php';?>
+
     </div>
 
     <!-- PAGINA CONSENSUS INICIO -->

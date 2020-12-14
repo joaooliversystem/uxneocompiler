@@ -18,11 +18,32 @@
 
 
     <style>
+
+        textarea{
+            width: 100%;
+            background: none;
+            border:none;
+            border-bottom: 5px solid #00AF92;
+            resize: none;
+            outline: none;
+            color: white;
+        }
         .small-screen{
             display: none;
         }
 
-        @media (max-width: 1700px) {
+
+        @media (max-width: 1100px) {
+
+            .menu-vertical{
+               display: none;
+            }
+            .opt-options-header{
+                display: none;s
+            }
+        }
+
+            @media (max-width: 1700px) {
 
             .menu-vertical{
                 overflow-x: scroll;
@@ -40,15 +61,15 @@
 
         }
 
-        ::-webkit-scrollbar-track {
-            background-color: rgba(244, 244, 244, 0.3);
+        .menu-vertical::-webkit-scrollbar-track {
+            background-color: rgba(0,175,146,1);
         }
-        ::-webkit-scrollbar {
-            width: 1px;
-            background-color: rgba(244, 244, 244, 0.3);
+        .menu-vertical::-webkit-scrollbar {
+            width: 2px;
+            background-color: rgba(0,175,146,1);
         }
-        ::-webkit-scrollbar-thumb {
-            background-color: rgba(244, 244, 244, 0.3);
+        .menu-vertical::-webkit-scrollbar-thumb {
+            background-color: rgba(0,175,146,1);
         }
 
 
