@@ -1,9 +1,6 @@
-
 </div>
 </div>
 </div>
-
-
 
 </body>
 <script src="public/js/jquery-3.5.1.slim.min.js"></script>

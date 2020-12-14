@@ -115,8 +115,7 @@
 
 </header>
 
-
-
+<!-- SPACING ON THE LATERAL SIDE -->
 <div class="container">
     <div class="row">
         <div class="tab-content">
