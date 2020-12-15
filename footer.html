@@ -9,8 +9,14 @@
 <script src="assets/ux_js/select2.min-4.1.0-beta.1.js"></script>
 <script src="assets/ux_js/icheck.min-1.0.3.js"></script>
 <script src="assets/ux_js/ace-1.4.12.js"></script>
+<script src="assets/ux_js/angular-1.7.8.min.js"></script>
+<script src="assets/ux_js/angular-route-1.7.8.min.js"></script>
 
 <script>
+    var app = angular.module('neoCompilerIoWebApp', [
+    'ngRoute'
+    ]);
+
     var editor = ace.edit("editor");
     editor.setTheme("ace/theme/monokai");
     editor.session.setMode("ace/mode/c_cpp");
