@@ -192,7 +192,7 @@ html,body{
     border-bottom: 5px solid #00AF92;
 
 }
-#editor{
+#aceEditor{
     position:relative;
     margin-top: 30px;
     right: 0;
