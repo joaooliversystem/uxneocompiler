@@ -1,7 +1,3 @@
-var cSharpFiles = [
-    ["/examples/csharp/HelloWorld/HelloWorld.cs"]
-];
-
 function createEditor(name, mode) {
     var editor = ace.edit(name);
     editor.setTheme("ace/theme/monokai");
